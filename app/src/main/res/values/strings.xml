@@ -13,5 +13,9 @@
     <string name="label_calle">Calle y Numero</string>
     <string name="label_ciudad">Ciudad</string>
     <string name="label_estado">Estado</string>
+    <string name="label_JORHDI">Jorhdi Villegas</string>
+    <string name="label_tarjeta">267448595 555468</string>
+    <string name="label_anio">26/22</string>
+    <string name="btn_aceptar">Aceptar</string>
 
 </resources>
