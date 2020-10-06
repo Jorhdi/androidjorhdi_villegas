@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">credit card</string>
+    <string name="Informacion_tarjeta">Informacion de Credito</string>
+    <string name="label_titulo">REGISTRO DE TARJETA DE CREDITO</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="label_Nombre">Nombre</string>
+    <string name="label_Apellido">Apellido</string>
+    <string name="label_num_tarjeta">Numero de Tarjeta</string>
+    <string name="label_mes">Mes</string>
+    <string name="label_año">Año</string>
+    <string name="label_codigo">Codigo</string>
+    <string name="label_direccion">Direccion</string>
+    <string name="label_calle">Calle y Numero</string>
+    <string name="label_ciudad">Ciudad</string>
+    <string name="label_estado">Estado</string>
+
+</resources>

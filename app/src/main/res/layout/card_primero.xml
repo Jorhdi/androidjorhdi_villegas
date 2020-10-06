@@ -1,0 +1,102 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_titulo"
+            android:textColor="@color/texto"
+            android:padding="12dp"
+            android:gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_Nombre"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_Apellido"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_num_tarjeta"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_mes"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_año"/>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_codigo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texto"
+            android:padding="8dp"
+            android:text="@string/label_direccion"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_calle"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_ciudad"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sub_texto"
+            android:text="@string/label_estado"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Registrar"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
